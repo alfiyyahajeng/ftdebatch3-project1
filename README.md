@@ -24,5 +24,6 @@ The final output will be a dashboard displaying the following data:
 * pandas
 
 ## Step by step
-1. Install Dependencies by run this script ```pip install req.txt```
-2. t
+1. Install Dependencies by run this script
+  ```pip install req.txt```
+2. haha
