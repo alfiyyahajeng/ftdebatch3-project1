@@ -31,19 +31,21 @@ The final output will be a dashboard displaying the following data:
    * `query/dwh_design.sql `: define schema and table in Data Warehouse 
 3. Create config.json file
    ```json{
-    "marketplace_prod": {
-        "host": "",
-        "db": "",
-        "user": "",
-        "password": "",
-        "port": ""
-    },
-    "dwh": {
-        "host": "",
-        "db": "",
-        "user": "",
-        "password": "",
-        "port": ""
-    }
+   {
+      "marketplace_prod": {
+          "host": "",
+          "db": "",
+          "user": "",
+          "password": "",
+          "port": ""
+      },
+      "dwh": {
+          "host": "",
+          "db": "",
+          "user": "",
+          "password": "",
+          "port": ""
+      }
+   }
   }
 4. Execute the ETL Script `main.py`
