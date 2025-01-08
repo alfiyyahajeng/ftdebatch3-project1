@@ -30,7 +30,7 @@ The final output will be a dashboard displaying the following data:
    * `query/query.sql`: extracting data from the source database
    * `query/dwh_design.sql `: define schema and table in Data Warehouse 
 3. Create config.json file
-   {
+   ```{
     "marketplace_prod": {
         "host": "",
         "db": "",
@@ -45,5 +45,5 @@ The final output will be a dashboard displaying the following data:
         "password": "",
         "port": ""
     }
-    }
+    }```
   4. Execute the ETL Script `main.py`
