@@ -29,7 +29,7 @@ The final output will be a dashboard displaying the following data:
 2. Create conncection postgresql in Dbeaver. Insert schema and data in data warehouse
    * `query/query.sql`: extracting data from the source database
    * `query/dwh_design.sql `: define schema and table in Data Warehouse 
-3. Create config.json file
+3. Create `config.json` file
    ```json{
    {
       "marketplace_prod": {
